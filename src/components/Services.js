@@ -8,7 +8,7 @@ export default class Services extends Component {
       {
         icon: <FaCocktail />,
         title: "Free Cocktails",
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet ante at nisi commodo, vel bibendum odio sollicitudin. "
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet ante at nisi commodo, vel bibendum odio sollicitudin."
       },
       {
         icon: <FaHiking />,
@@ -39,9 +39,8 @@ export default class Services extends Component {
                 <h6>{item.title}</h6>
                 <p>{item.info}</p>
               </article>
-            );
+            )
           })}
-          ;
         </div>
       </section>
     );
